@@ -14,12 +14,6 @@ def callback(data):
 
     global level
 
-    #get input (move and rotate) from ds5
-    moveX = data.hat_lx
-    moveY = data.hat_ly
-
-    rotate = data.hat_rx
-
     #give input to twist
     twist = Twist()
 
